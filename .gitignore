@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Upload files (用户上传的文件)
+upload/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node modules (frontend)
+frontend/node_modules/
+frontend/dist/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Archive (大型模型文件和数据集)
+archive/
+
+# Docs and tests (本地文档和测试)
+docs/
+tests/
+*.md
+!README.md
+!MIGRATION_TO_OPENEULER.md
+!项目完整技术说明书.md
+
+# Model files (大型模型文件，不上传到Git)
+inference/models/*.pth
+inference/models/*.ckpt
+
+# MindSpore related
+rank_*/
+*.ir
+
+# Environment variables
+.env
+.env.local
+
+# Keys (敏感信息，不上传)
+keys/
+
+# Test and coverage
+.pytest_cache/
+.coverage
+htmlcov/

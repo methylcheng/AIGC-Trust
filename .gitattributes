@@ -1,0 +1,4 @@
+inference/models/image_detector_vit.pth filter=lfs diff=lfs merge=lfs -text
+inference/models/*.pth filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.ckpt filter=lfs diff=lfs merge=lfs -text
